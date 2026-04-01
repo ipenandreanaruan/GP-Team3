@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className={`navbar sticky top-0 z-50 transition-colors duration-300 ${theme[currentTheme].navColor}`}>
             <div className="flex-1">
                 <Link to="/home" className="btn btn-ghost normal-case text-xl tracking-widest font-bold">
-                    🚀 HACKTIV CHAT
+                    RealtimeChat
                 </Link>
             </div>
             <div className="flex-none gap-4 px-4">
